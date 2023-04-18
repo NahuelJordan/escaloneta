@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Contenedor de todo*/
+.contenedor_principal{
+    width: 100%;
+    height: 100vh;
+   
+}
+
+
+/*Contenedor Menu/Header*/
+.contenedor-menu{
+width: 100%;
+height: 104px;
+display: grid;
+grid-template-columns: 0.25fr 2fr;
+grid-template-rows: 1fr;
+background: url(/img/puedeser.jpg);
+background-position:center;
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+
+/*Header*/
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Imagen header*/
+
+.img-header{
+    width: 50%;
+    height: 90px;
+}
+
+
+/*Menu*/
+
+.nav{
+    width: 100%;
+    height: 103px;
+}
+
+/*contenedor Ul*/
+.ul-contenedor{
+    width: 100%;
+    height: 103px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+/*ITEM*/
+.item{
+    list-style: none;
+    background-color: #FFD93D;
+    border: 2px solid #4F200D;
+    padding: 10px 30px;
+    border-radius: 9px;
+   
+}
+
+.item_a{
+    color: #50350a;
+}
+
+
+
+/*Enlaces*/
+.ul-contenedor .item a{
+    text-decoration: none;
+}
+
+/*Main*/
+
+.contenedor-imagen{
+    width: 100%;
+    height: 90vh;
+    background: url(/img/otra.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   
+}
+
+/*boton de inicio*/
+
+.button{
+    margin-right: 18%;
+}
+
+.button-inicio{
+    border: 3px solid #F6F1E9;
+    border-radius: 30px;
+    padding: 30px;
+    color: azure;
+    width: 100%;
+    text-decoration: none;
+}
+
+.button-inicio:hover{
+    font-size: 20px;
+    color: #ab4c19;
+}
+
+/*Ruta de BEBIDAS*/
+
+
+
+.main{
+width: 100%;
+height: 90vh;
+}
+
+.titulo{
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+.contenedor_cervezas-latas{
+width: 100%;
+height: 500px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(3,1fr);
+justify-content: center;
+justify-items: center;
+}
+
+.contenedor_cervezas-texto{
+   text-align: center;
+}
+
+.item_img-cerveza{
+    width: 100%;
+    height: 235px;
+}
+
+
+/*RUTA DE COMIDAS*/
+
+.contenedor_comida{
+    width: 100%;
+    height: 90vh;
+}
+
+.contenedor_comida-hamburguesa{
+    width: 100%;
+    height: 80vh;
+    display: grid;
+   grid-template-rows: 0.10fr 1fr;
+   
+}
+
+
+.contenedor_comida-tituloh{
+    text-align: center;
+}
+
+
+/*Este contenedor tiene imagen, texto y precio*/
+.contenedor_comida_img{
+    width: 100%;
+    height: 70vh;      
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+}
+
+.contenedor_comida-imagen{
+    width: 100%;
+    height: 300px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen_comida{
+    width: 20%;
+    height: 235px;
+}
+
+
+
+/*RUTA DE QUIENES SOMOS.*/
+
+.contenedor-quienesomos{
+width: 100%;
+height: 80vh;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+.contenedor-quienesomos-img{
+    width: 40%;
+    height: 500px;
+}
+
+.img-quienesomos{
+    width: 100%;
+    height: 500px;
+}
+
+.contenedor-quienesomos-txt{
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+
+
+
+/*RUTA DE LUGAR.*/
+
+.centrado{
+    text-align: center;
+}
